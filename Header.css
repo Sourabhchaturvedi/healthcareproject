@@ -1,0 +1,20 @@
+#headder{
+	height:15%;
+	width:100%;
+	background-color:grey;
+}
+#logo{
+	width:60%;
+	height:100%;
+	background-color:black;
+}
+
+#image{
+	border-radius:50%;
+	width:80px;
+	height:80px;
+	background:url("back.jpg");
+	background-size:100% 100%;
+	margin-top:10%;
+	
+}

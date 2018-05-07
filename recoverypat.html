@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        body {
+            background-color: rgba(0, 0, 128, 0.4);
+            color: white;
+        }
+        
+        .bbac {
+            background: url(forgotpass.jpg);
+            background-repeat: no-repeat;
+        }
+        
+        .mail {
+            width: 30%;
+            height: 7%;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="width:70%; height:100%; float:left; background: rgb(58, 202, 58)">
+        <h1 style="margin-left:11%;"> Enter Your Valid & Recognized Email Address Here Patient</h1>
+        <center style="margin-top:25%; font-size:190%">
+            <form method="post" action="forgotp.jsp">
+                Email:<input type="email" name="username" placeholder="abc@gmail.com" autofocus class="mail">
+                <input type="hidden" name="doc" value="doc">
+                <input type="submit" value="Change" class="mail">
+            </form>
+        </center>
+    </div>
+    <div style="width:30%; height:100%; background-color:white; float:left;" class="bbac">
+    </div>
+</body>
+
+</html>
